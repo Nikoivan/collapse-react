@@ -1,0 +1,14 @@
+.collapse-container {
+  animation-name: collapse-label;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes collapse-label {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

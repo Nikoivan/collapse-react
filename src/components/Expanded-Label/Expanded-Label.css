@@ -1,0 +1,14 @@
+.description {
+  animation-name: description;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes description {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
